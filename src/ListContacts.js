@@ -1,4 +1,19 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+
+class ListContacts extends Component {
+  render() {
+    console.log('Props', this.props)
+    return (
+      <ol className='contact-list'>
+
+      </ol>
+    )
+  }
+}
+
+export default ListContacts 
+
+/*
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import escapeRegExp from 'escape-string-regexp'
@@ -81,3 +96,4 @@ class ListContacts extends Component {
 }
 
 export default ListContacts
+*/
